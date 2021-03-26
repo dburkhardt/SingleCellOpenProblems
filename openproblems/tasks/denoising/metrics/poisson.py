@@ -1,7 +1,7 @@
 from ....tools.decorators import metric
 
 
-@metric(metric_name="Poisson loss", maximize=False, image="python-extras")
+@metric(metric_name="Poisson loss", maximize=False, image="op-python-extras")
 def poisson(adata):
     from molecular_cross_validation.mcv_sweep import poisson_nll_loss
 

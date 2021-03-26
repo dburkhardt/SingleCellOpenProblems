@@ -10,7 +10,7 @@ from ....tools.utils import check_version
     paper_year=2019,
     code_url="https://github.com/KrishnaswamyLab/PHATE/",
     code_version=check_version("phate"),
-    image="python-extras",
+    image="op-python-extras",
 )
 def phate(adata):
     from phate import PHATE

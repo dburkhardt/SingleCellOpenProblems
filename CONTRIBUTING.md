@@ -126,7 +126,7 @@ _pca = r_function("pca.R")
     paper_year=1901,
     code_url="https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/prcomp",
     code_version=check_version("rpy2"),
-    image="r-base",
+    image="op-r-base",
 )
 def pca(adata):
     return _pca(adata)

@@ -27,7 +27,7 @@ def _magic(adata, solver):
     paper_year=2018,
     code_url="https://github.com/KrishnaswamyLab/MAGIC",
     code_version=check_version("magic-impute"),
-    image="python-extras",
+    image="op-python-extras",
 )
 def magic(adata):
     return _magic(adata, solver="exact")
@@ -41,7 +41,7 @@ def magic(adata):
     paper_year=2018,
     code_url="https://github.com/KrishnaswamyLab/MAGIC",
     code_version=check_version("magic-impute"),
-    image="python-extras",
+    image="op-python-extras",
 )
 def magic_approx(adata):
     return _magic(adata, solver="approximate")

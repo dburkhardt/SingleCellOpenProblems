@@ -91,7 +91,7 @@ jobs:
       run: |
         if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
         renv::restore()
-        renv::install(scan("docker/r-base/r_requirements.txt", what=character(), sep="\n"))
+        renv::install(scan("docker/op-r-base/r_requirements.txt", what=character(), sep="\n"))
       shell: Rscript {0}
 
     - name: Build Docker images

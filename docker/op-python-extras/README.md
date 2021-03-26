@@ -1,4 +1,4 @@
-# python-extras Docker image
+# op-python-extras Docker image
 
 Base image: singlecellopenproblems/openproblems
 

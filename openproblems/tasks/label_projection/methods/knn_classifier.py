@@ -29,7 +29,7 @@ def knn_classifier_log_cpm(adata):
     code_url="https://scikit-learn.org/stable/modules/generated/"
     "sklearn.neighbors.KNeighborsClassifier.html",
     code_version=check_version("scikit-learn"),
-    image="r-base",
+    image="op-r-base",
 )
 def knn_classifier_scran(adata):
     log_scran_pooling(adata)

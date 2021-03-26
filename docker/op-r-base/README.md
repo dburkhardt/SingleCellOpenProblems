@@ -1,4 +1,4 @@
-# r-base Docker image
+# op-r-base Docker image
 
 Base image: singlecellopenproblems/openproblems
 
@@ -17,7 +17,7 @@ apt packages:
 * gfortran
 * libblas-dev
 * liblapack-dev
-* r-base-core=4.0
+* op-r-base-core=4.0
 
 R packages:
 

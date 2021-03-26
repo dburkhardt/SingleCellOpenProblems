@@ -15,7 +15,7 @@ _mnn = r_function("mnn.R")
     paper_year=2018,
     code_url="https://github.com/LTLA/batchelor",
     code_version=check_version("rpy2"),
-    image="r-extras",
+    image="op-r-extras",
 )
 def mnn_log_cpm(adata):
     log_cpm(adata)
@@ -31,7 +31,7 @@ def mnn_log_cpm(adata):
     paper_year=2018,
     code_url="https://github.com/LTLA/batchelor",
     code_version=check_version("rpy2"),
-    image="r-extras",
+    image="op-r-extras",
 )
 def mnn_log_scran_pooling(adata):
     log_scran_pooling(adata)

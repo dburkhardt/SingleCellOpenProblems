@@ -24,12 +24,12 @@ RUN gpg --output key.gpg --export 'E19F5F87128899B192B1A2C2AD5F960A256A04AF'
 RUN apt-key add key.gpg
 RUN echo 'deb http://cloud.r-project.org/bin/linux/debian buster-cran40/' >> /etc/apt/sources.list
 RUN apt-get update -qq
-RUN apt-get install -yq --no-install-suggests --no-install-recommends r-base-dev=4.0\*
+RUN apt-get install -yq --no-install-suggests --no-install-recommends op-r-base-dev=4.0\*
 RUN apt-get clean -y && apt-get autoremove -y
 
 # Install R packages
 RUN R -e "install.packages('renv'); renv::consent(TRUE)"
-COPY ./docker/r-base/r_requirements.txt ./r_requirements.txt
+COPY ./docker/op-r-base/r_requirements.txt ./r_requirements.txt
 RUN R -e "renv::install(scan('r_requirements.txt', sep='\n', what=character()))"
 
 # Install kernelspec

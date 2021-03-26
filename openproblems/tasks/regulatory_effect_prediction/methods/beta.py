@@ -224,7 +224,7 @@ def _atac_genes_score(adata, top_genes=500, threshold=1):
     paper_year=2013,
     code_version="1.0",
     code_url="http://cistrome.org/BETA",
-    image="python-extras",
+    image="op-python-extras",
 )
 def beta(adata, n_top_genes=500, threshold=1):
     adata = _atac_genes_score(adata, top_genes=n_top_genes, threshold=threshold)
