@@ -29,7 +29,7 @@ def mlp_log_cpm(adata):
     code_url="https://scikit-learn.org/stable/modules/generated/"
     "sklearn.neural_network.MLPClassifier.html",
     code_version=check_version("scikit-learn"),
-    image="openproblems-r-base",
+    image="r-base",
 )
 def mlp_scran(adata):
     log_scran_pooling(adata)

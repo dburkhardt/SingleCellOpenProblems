@@ -31,7 +31,7 @@ def logistic_regression_log_cpm(adata, max_iter=1000):
     code_url="https://scikit-learn.org/stable/modules/generated/"
     "sklearn.linear_model.LogisticRegression.html",
     code_version=check_version("scikit-learn"),
-    image="openproblems-r-base",
+    image="r-base",
 )
 def logistic_regression_scran(adata, max_iter=1000):
     log_scran_pooling(adata)

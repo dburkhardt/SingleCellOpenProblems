@@ -21,7 +21,7 @@ RUN apt-get update && \
     cd /
 
 # Install Python packages
-COPY ./docker/openproblems-python-extras/requirements.txt ./requirements.txt
+COPY ./docker/python-extras/requirements.txt ./requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
 USER $NB_UID

@@ -1,6 +1,6 @@
-# openproblems-r-base Docker image
+# r-base Docker image
 
-Base image: singlecellopenproblems/openproblems-r-base
+Base image: singlecellopenproblems/r-base
 
 OS: Debian Stretch
 

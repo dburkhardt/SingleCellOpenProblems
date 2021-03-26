@@ -101,8 +101,8 @@ logistic_regression_scran
 mlp_log_cpm
 mlp_scran
 $ openproblems-cli image --methods --task label_projection logistic_regression_scran
-openproblems-r-base
-$ docker run -dt singlecellopenproblems/openproblems-r-base openproblems-cli run --task label_projection --input dataset.h5ad --output method.h5ad logistic_regression_log_cpm
+r-base
+$ docker run -dt singlecellopenproblems/r-base openproblems-cli run --task label_projection --input dataset.h5ad --output method.h5ad logistic_regression_log_cpm
 $ openproblems-cli list --metrics --task label_projection
 accuracy
 f1

@@ -12,7 +12,7 @@ import scanpy as sc
     code_url="https://scikit-learn.org/stable/modules/generated/"
     "sklearn.manifold.TSNE.html#sklearn.manifold.TSNE",
     code_version=check_version("MulticoreTSNE"),
-    image="openproblems-python-extras",
+    image="python-extras",
 )
 def tsne(adata):
     sc.pp.pca(adata)
