@@ -1,7 +1,7 @@
 git+https://github.com/KrishnaswamyLab/harmonic-alignment#subdirectory=python
 magic-impute
-meld
 MulticoreTSNE
+meld
 phate
 pyensembl
 pybedtools
