@@ -4,7 +4,7 @@ import decorator
 import packaging.version
 
 
-@decorator.decorator 
+@decorator.decorator
 def temporary(func, version=None, *args, **kwargs):
     """Decorate a function as a temporary fix.
 
